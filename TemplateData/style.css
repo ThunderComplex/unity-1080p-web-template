@@ -4,15 +4,18 @@ body {
 }
 
 #unity-container {
-    width: auto;
-    height: 90vh;
-    aspect-ratio: 16 / 9;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #unity-canvas {
     background: #231F20;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 100vh;
+    aspect-ratio: 16 / 9;
 }
 
 .unity-mobile #unity-canvas {
